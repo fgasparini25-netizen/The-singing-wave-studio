@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="FgLzg4gG9KzIJfUZNbudkpzKEf73Iax-ehaq4myxXQc">
+  <title>The Singing Wave Studio</title>
+  
+  <!-- Font Google stile Berklee / Editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Bar / Brand Bar -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <span class="brand-logo">THE SINGING WAVE STUDIO</span>
+      <span class="tagline-top" data-it="Accademia Vocale Online" data-en="Online Vocal Academy">Accademia Vocale Online</span>
+    </div>
+  </div>
+
+  <!-- Menu Navigazione Sticky con Selettore Lingua -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="#lezione-1-0" data-it="Respirazione" data-en="Breathing">Respirazione</a>
+        <a href="#lezione-1" data-it="Lezione 1" data-en="Lesson 1">Lezione 1</a>
+        <a href="#lezione-2" data-it="Lezione 2" data-en="Lesson 2">Lezione 2</a>
+        <a href="#lezione-3" data-it="Lezione 3" data-en="Lesson 3">Lezione 3</a>
+        <a href="#lezione-4" data-it="Lezione 4" data-en="Lesson 4">Lezione 4</a>
+        <a href="#lezione-5" data-it="Lezione 5" data-en="Lesson 5">Lezione 5</a>
+        <a href="#contatti" data-it="Contatti" data-en="Contact">Contatti</a>
+      </div>
+      <!-- Tasto Cambio Lingua -->
+      <div class="lang-switch">
+        <button id="btn-it" class="lang-btn active" onclick="setLanguage('it')">ITA</button>
+        <span class="lang-separator">|</span>
+        <button id="btn-en" class="lang-btn" onclick="setLanguage('en')">ENG</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Header stile Berklee -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="hero-badge" data-it="ESERCIZI VOCALI GUIDATI" data-en="GUIDED VOCAL EXERCISES">ESERCIZI VOCALI GUIDATI</div>
+      <h1 data-it="Benvenuto a The Singing Wave Studio" data-en="Welcome to The Singing Wave Studio">Benvenuto a The Singing Wave Studio</h1>
+      <p class="subtitle">All the best, All the Time!</p>
+      
+      <div class="hero-image-wrapper">
+        <img src="il_570xN.2350075179.jpeg" alt="Immagine di copertina del corso">
+      </div>
+
+      <div class="hero-banner">
+        <span class="highlight" data-it="GODITI IL CORSO!" data-en="ENJOY THE COURSE!">GODITI IL CORSO!</span>
+      </div>
+
+      <blockquote class="quote">
+        <span data-it="&quot;Mettici passione e vai avanti con entusiasmo ogni minuto di ogni giorno fino a raggiungere il tuo obiettivo.&quot;" data-en="&quot;Put passion into it and push forward with enthusiasm every minute of every day until you reach your goal.&quot;">"Mettici passione e vai avanti con entusiasmo ogni minuto di ogni giorno fino a raggiungere il tuo obiettivo."</span>
+        <cite>— Ava DuVernay</cite>
+      </blockquote>
+    </div>
+  </header>
+
+  <main class="content-container">
+
+    <!-- Lezione 1.0 -->
+    <article id="lezione-1-0" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number" data-it="INTRODUZIONE" data-en="INTRODUCTION">INTRODUZIONE</span>
+        <h2 data-it="Lezione 1.0 - Respirazione e consapevolezza del diaframma" data-en="Lesson 1.0 - Breathing and Diaphragm Awareness">Lezione 1.0 - Respirazione e consapevolezza del diaframma</h2>
+      </header>
+      
+      <p class="description" data-it="Per prima cosa percepiamo la respirazione diaframmatica, i suoi movimenti interni e l'espansione delle costole. La respirazione dovrà essere bassa e non al livello del petto. Il processo di respirazione diaframmatica significa inspirare e gonfiare l'addome. Espirare con la bocca aperta e permettere all'addome di svuotarsi d'aria." data-en="First, let's feel diaphragmatic breathing, its internal movements, and the expansion of the ribs. Breathing should be deep and low, not up in the chest. Diaphragmatic breathing means inhaling to expand the abdomen, and exhaling through an open mouth to release the air.">
+        Per prima cosa percepiamo la respirazione diaframmatica, i suoi movimenti interni e l'espansione delle costole. La respirazione dovrà essere bassa e non al livello del petto. Il processo di respirazione diaframmatica significa inspirare e gonfiare l'addome. Espirare con la bocca aperta e permettere all'addome di svuotarsi d'aria.
+      </p>
+      
+      <div class="media-box">
+        <img src="Progetto senza titolo.gif" alt="Dimostrazione respirazione diaframmatica">
+      </div>
+
+      <div class="exercise-box">
+        <h3><span class="ex-badge" data-it="Esercizio 1" data-en="Exercise 1">Esercizio 1</span> Fill the balloon and empty it slowly</h3>
+        <div class="audio-group">
+          <div class="audio-item">
+            <label data-it="Esercizio Respiratorio A" data-en="Breath Exercise A">Esercizio Respiratorio A</label>
+            <audio controls src="brethessss.mp3"></audio>
+          </div>
+          <div class="audio-item">
+            <label data-it="Esercizio Respiratorio B (Respiro 1.0)" data-en="Breath Exercise B (Breath 1.0)">Esercizio Respiratorio B (Respiro 1.0)</label>
+            <audio controls src="respiro 1.0.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lezione 1 -->
+    <article id="lezione-1" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number">MODULE 1</span>
+        <h2 data-it="Lezione 1 - Primi vocalizzi" data-en="Lesson 1 - First Vocal Warm-ups">Lezione 1 - Primi vocalizzi</h2>
+      </header>
+
+      <div class="media-box">
+        <img src="https://blog.armonici.it/wp-content/uploads/2013/03/Illu01_head_neck_ita_full.jpg" alt="Anatomia vocale">
+      </div>
+
+      <p class="description" data-it="Iniziamo a familiarizzare con la nostra voce con alcuni esercizi vocali da applicare quotidianamente. Gli esercizi vocali oltre ad allenare il nostro muscolo, hanno anche la funzione di riscaldare la nostra voce e il corpo per prevenire possibili danni alle corde vocali." data-en="Let's get familiar with our voice through daily vocal exercises. In addition to strengthening vocal muscles, warm-ups help protect your vocal cords from potential strain or damage.">
+        Iniziamo a familiarizzare con la nostra voce con alcuni esercizi vocali da applicare quotidianamente. Gli esercizi vocali oltre ad allenare il nostro muscolo, hanno anche la funzione di riscaldare la nostra voce e il corpo per prevenire possibili danni alle corde vocali.
+      </p>
+
+      <div class="exercise-list">
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 1</span> Humming</h3>
+          <audio controls src="esercizio%201.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 2</span> Humming and Mi</h3>
+          <audio controls src="esercizio%202.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 3</span> Muu</h3>
+          <audio controls src="esercizio%203.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 4</span> Lip Trill</h3>
+          <audio controls src="esercizio%204.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 5</span> Ma Me Mi Mo Mu</h3>
+          <audio controls src="esercizio%205.mp3"></audio>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lezione 2 -->
+    <article id="lezione-2" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number">MODULE 2</span>
+        <h2 data-it="Lezione 2 - Respirazione e controllo emissione del suono" data-en="Lesson 2 - Breath Control & Sound Emission">Lezione 2 - Respirazione e controllo emissione del suono</h2>
+      </header>
+
+      <div class="media-box">
+        <img src="breath-1.jpg" alt="Controllo della respirazione addominale e toracica">
+      </div>
+
+      <p class="description" data-it="Il diaframma è un muscolo che agisce nel processo di respirazione. È posizionato al centro del tronco e durante l'inspirazione, si contrae e si abbassa aumentando di volume." data-en="The diaphragm is the primary muscle involved in breathing. Located at the base of the chest, it contracts and moves downward during inhalation to expand the thoracic cavity.">
+        Il diaframma è un muscolo che agisce nel processo di respirazione. È posizionato al centro del tronco e durante l'inspirazione, si contrae e si abbassa aumentando di volume.
+      </p>
+
+      <div class="exercise-list">
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 1</span> Exhale S</h3>
+          <audio controls src="vocal exercises 6.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 2</span> Humming and Lip Trill</h3>
+          <audio controls src="esercizio 8.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 3</span> Singing an A with a straw</h3>
+          <audio controls src="vocal exercises 9.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 4</span> Singing an A with and without a straw</h3>
+          <audio controls src="lezione 10.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 5</span> Singing Glide with a straw</h3>
+          <audio controls src="lezione 11.mp3"></audio>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lezione 3 -->
+    <article id="lezione-3" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number">MODULE 3</span>
+        <h2 data-it="Lezione 3 - Sostegno del suono" data-en="Lesson 3 - Breath Support">Lezione 3 - Sostegno del suono</h2>
+      </header>
+
+      <div class="media-box">
+        <img src="za.jpg" alt="Sostegno vocale">
+      </div>
+
+      <p class="description" data-it="Ora cerchiamo di sentire l'espansione della schiena quando inspiriamo, provando a rilassare il collo e la mascella." data-en="Focus on feeling your back expand as you inhale, while keeping your neck and jaw completely relaxed.">
+        Ora cerchiamo di sentire l'espansione della schiena quando inspiriamo, provando a rilassare il collo e la mascella.
+      </p>
+
+      <div class="exercise-list">
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 1</span> Feeling our back expanding</h3>
+          <audio controls src="Lezione 3 esercizio 1.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 2</span> Doing short and fast breathes</h3>
+          <audio controls src="Esercizio 12 .mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 3</span> Short & fast breathes + singing an A</h3>
+          <audio controls src="Lezione 3 esercizio 2.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 4</span> Lip Trill and vowel U</h3>
+          <audio controls src="Lezione 3 esercizio 4.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 5</span> Sing numbers using F major scale</h3>
+          <audio controls src="Lezione3esercizio 5.mp3"></audio>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lezione 4 -->
+    <article id="lezione-4" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number">MODULE 4</span>
+        <h2 data-it="Lezione 4 - Cantare note alte" data-en="Lesson 4 - Singing High Notes">Lezione 4 - Cantare note alte</h2>
+      </header>
+
+      <div class="media-box">
+        <img src="Aggiungi un'intestazione.jpeg" alt="Note alte e palato molle">
+      </div>
+
+      <p class="description" data-it="Cerca di ricreare la sensazione dello sbadiglio quando sali di tonalità, in questo modo si alzerà il palato molle e si avrà un suono più piacevole e meno forzato (evitando il suono nasale)." data-en="Try to recreate the feeling of a yawn when singing higher pitches. This raises the soft palate, producing a warmer, open tone without strain or nasal placement.">
+        Cerca di ricreare la sensazione dello sbadiglio quando sali di tonalità, in questo modo si alzerà il palato molle e si avrà un suono più piacevole e meno forzato (evitando il suono nasale).
+      </p>
+
+      <div class="exercise-list">
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 1</span> Gnà Gnà Gnà Gnà Gnà</h3>
+          <audio controls src="vocal exercises high.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 2</span> Hi Hi Hi Hi</h3>
+          <audio controls src="Esercizio risata.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 3</span> Singing mute Glide trying to yawn</h3>
+          <audio controls src="vocal exercises mute.mp3"></audio>
+        </div>
+        <div class="exercise-box">
+          <h3><span class="ex-badge">Ex 4</span> Singing Glide trying to yawn</h3>
+          <audio controls src="vocal glide.mp3"></audio>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lezione 5 -->
+    <article id="lezione-5" class="lesson-card">
+      <header class="lesson-header">
+        <span class="lesson-number">MODULE 5</span>
+        <h2 data-it="Lezione 5 - Postura, Range e Prime canzoni" data-en="Lesson 5 - Posture, Vocal Range & First Songs">Lezione 5 - Postura, Range e Prime canzoni</h2>
+      </header>
+
+      <div class="media-box">
+        <img src="posture.jpg" alt="Confronto postura corretta ed errata per il canto">
+      </div>
+
+      <p class="description" data-it="La postura nel canto dovrebbe essere eretta, con corpo rilassato e non rigido. Le gambe dovrebbero essere leggermente aperte e piegate in avanti." data-en="Good singing posture should be tall yet relaxed. Stand with your feet shoulder-width apart and knees slightly soft.">
+        La postura nel canto dovrebbe essere eretta, con corpo rilassato e non rigido. Le gambe dovrebbero essere leggermente aperte e piegate in avanti.
+      </p>
+
+      <!-- Vocal Range -->
+      <div class="exercise-box vocal-range-section">
+        <h3><span class="ex-badge" data-it="Esercizio 1" data-en="Exercise 1">Esercizio 1</span> Finding your Vocal range</h3>
+        <p class="description" data-it="Il Range vocale rappresenta la nostra estensione vocale in base alla nostra tonalità più bassa e più alta che riusciamo a raggiungere. Sei un basso, baritono, tenore, contralto, mezzosoprano, soprano?" data-en="Your vocal range spans from your lowest comfortable note to your highest. Are you a bass, baritone, tenor, alto, mezzo-soprano, or soprano?">
+          Il Range vocale rappresenta la nostra estensione vocale in base alla nostra tonalità più bassa e più alta che riusciamo a raggiungere. Sei un basso, baritono, tenore, contralto, mezzosoprano, soprano?
+        </p>
+        <div class="media-box">
+          <img src="https://uploads-cdn.omnicalculator.com/images/vocal-range/v3/ranges_on_piano.png?width=425&enlarge=0&format=jpeg" alt="Estensione vocale su pianoforte">
+        </div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/9IejHKpfHso?si=L33EdgwI68qq_CJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Easy Songs -->
+      <div class="exercise-box songs-section">
+        <h3><span class="ex-badge" data-it="Esercizio 2" data-en="Exercise 2">Esercizio 2</span> Easy songs to sing</h3>
+        <div class="video-grid">
+          <div class="video-container"><iframe src="https://www.youtube.com/embed/GemKqzILV4w" title="Snow Patrol - Chasing Cars" allowfullscreen></iframe></div>
+          <div class="video-container"><iframe src="https://www.youtube.com/embed/8LaTzWMbShY?si=Da7BQBqn8Uf0YRm0" title="YouTube video" allowfullscreen></iframe></div>
+          <div class="video-container"><iframe src="https://www.youtube.com/embed/MqazV4hbu8E?si=nzyPavAWWcNCt5Nk" title="YouTube video" allowfullscreen></iframe></div>
+          <div class="video-container"><iframe src="https://www.youtube.com/embed/4QU9Plbfo78?si=5te3jU2Xf4R6PqTL" title="YouTube video" allowfullscreen></iframe></div>
+          <div class="video-container"><iframe src="https://www.youtube.com/embed/rPkd_Udcm-k?si=qZG-1SU9SvblQvm5" title="YouTube video" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Footer / Contatti -->
+  <footer id="contatti" class="footer">
+    <div class="footer-container">
+      <h3>The Singing Wave Studio</h3>
+      <p class="about-text" data-it="Un corso di canto digitale progettato per guidarti passo dopo passo verso i tuoi obiettivi vocali.<br>Consultabile ovunque, in qualsiasi momento." data-en="A digital singing course designed to guide you step-by-step toward your vocal goals.<br>Accessible anywhere, anytime.">
+        Un corso di canto digitale progettato per guidarti passo dopo passo verso i tuoi obiettivi vocali.<br>
+        Consultabile ovunque, in qualsiasi momento.
+      </p>
+
+      <div class="actions">
+        <a href="https://www.paypal.com/donate/?hosted_button_id=NNK2XYCQYGGNJ" target="_blank" class="donate-btn">
+          <img src="https://lh3.googleusercontent.com/-h1okuKTm-ao/WQw_8rI4SkI/AAAAAAAA8YU/bGEuc6Y8CXo1XrUtHsTQc6aAWzEgdNhlQCHM/s720/paypal-donazione.png" alt="Fai una donazione su PayPal">
+        </a>
+
+        <a href="https://soundcloud.com/radio-wave-pop" target="_blank" class="button">
+          Follow us on Soundcloud
+        </a>
+
+        <a href="mailto:thesingingwavestudio@libero.it" class="button email-btn">
+          thesingingwavestudio@libero.it
+        </a>
+      </div>
+
+      <div class="wave-footer">
+        <img src="ocean-wave-46-light-abstract-blue-wave.gif" alt="Onda marina animated gif">
+      </div>
+      
+      <p class="copyright">&copy; The Singing Wave Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script Cambio Lingua -->
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('[data-it]').forEach(el => {
+        const text = el.getAttribute(`data-${lang}`);
+        if (text) {
+          el.innerHTML = text;
+        }
+      });
+
+      document.getElementById('btn-it').classList.toggle('active', lang === 'it');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.documentElement.lang = lang;
+
+      localStorage.setItem('preferred_lang', lang);
+    }
+
+    // Carica lingua salvata o default IT
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('preferred_lang') || 'it';
+      setLanguage(savedLang);
+    });
+  </script>
+
+</body>
+</html>
